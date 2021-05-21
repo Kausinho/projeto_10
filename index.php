@@ -55,6 +55,35 @@
         </div><!--container-->
     </section><!--descricao-danki-->
 
+    <section class="descricao-danki2">
+        <div class="container">
+            <div class="texto-descricao">
+                <h3>Nós somos uma agência digital. Trabalhamos seu posicionamento, conteúdo e estética, sempre focado e conversão.</h3>
+                <p>Exercitation aute voluptate aliquip tempor sunt cillum dolor velit consectetur pariatur velit aliqua magna.Dolore irure dolor quis aute aliquip cillum ipsum est.</p>
+            </div><!--texto-descricao-->
+            <img alt="Trabalho Danki" title="Trabalho Danki" src="images/mockup1.jpg" />
+            <div class="clear"></div><!--clear-->
+        </div><!--container-->
+    </section><!--descricao-danki2-->
+
+    <section class="descricao-danki3">
+        <div class="container">
+            <div class="box-depoimento">
+                <p>"Temos a danki como parceiro estratégico nos nossos planejamentos em plataforma digital. Sempre nos trazendo soluções inovadoras e adequadas às nossas necessidades e dos nossos clientes. Super recomendo!"</p>
+                <br />
+                <p><b>Gláucio - Voodoo Branded Content</b></p>
+            </div><!--box-depoimento-->
+        </div><!--container-->
+    </section><!--descricao-danki3-->
+
+    <section class="servicos">
+        <div class="container">
+            <div class="title-servicos">
+                <h3>Como podemos ajudar sua empresa<br /><i class="fa fa-angle-down"></i></h3>
+            </div><!--title-servicos-->
+        </div><!--container-->
+    </section><!--servicos-->
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/file.js"></script>
 </body>
