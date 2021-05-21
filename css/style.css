@@ -23,13 +23,15 @@
 
 header{
     background-image: url('../images/bg.jpg');
-    min-height: 600px;
+    min-height: 450px;
     padding: 30px 0;
     background-size: cover;
     background-position: center;
 }
 
 .logo{
+    position: relative;
+    z-index: 2;
     background-image: url('../images/logo.png');
     background-size: 100% 100%;
     float: left;
@@ -55,10 +57,49 @@ nav.desktop a{
     text-decoration: none;
 }
 
-nav.desktop li.btn-nav{
+nav li.btn-nav{
     padding: 3px 8px;
     border-radius: 20px;
     border: 1px solid white;
+}
+
+nav.mobile{
+    display: none;
+    float: right;
+}
+
+nav.mobile ul{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 70px 0 30px 0;
+    top: 0;
+    background: #31475e;
+    display: none;
+    text-align: center;
+}
+
+nav.mobile h3{
+    position: relative;
+    z-index: 2;
+    color: white;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+nav.mobile li{
+    padding: 10px 0;
+}
+
+nav.mobile li.btn-nav{
+    padding: 4px 10px;
+    display: inline-block;
+}
+
+nav.mobile a{
+    display: block;
+    color: white;
+    text-decoration: none;
 }
 
 div.chamada-header{
@@ -105,6 +146,49 @@ div.chamada-header input[type=submit]{
     background-color: #ff5f27;
     color: white;
     cursor: pointer;
+}
+
+/******/
+
+/*Sessão Descrição*/
+
+section.descricao-danki{
+    text-align: center;
+    padding: 30px 0;
+}
+
+section.descricao-danki p{
+    display: inline-block;
+    max-width: 680px;
+    font-weight: lighter;
+    font-size: 22px;
+    font-style: italic;
+}
+
+/******/
+
+/*Media screen*/
+
+@media screen and (max-width: 1024px){
+    nav.desktop{
+        display: none;
+    }
+
+    nav.mobile{
+        display: block;
+    }
+
+    .chamada-header{
+        text-align: center;
+    }
+
+    div.chamada-header p{
+        display: inline-block;
+    }
+
+    div.chamada-header input[type=email]{
+        margin-bottom: 20px;
+    }
 }
 
 /******/
