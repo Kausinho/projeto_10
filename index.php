@@ -27,6 +27,15 @@
                         <li class="btn-nav"><a href="">Quero um orçamento</a></li>
                     </ul>
                 </nav><!--desktop-->
+                <nav class="mobile">
+                    <h3><i class="fa fa-bars"></i></h3>
+                    <ul>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Serviços</a></li>
+                        <li><a href="">Contato</a></li>
+                        <li class="btn-nav"><a href="">Quero um orçamento</a></li>
+                    </ul>
+                </nav><!--mobile-->
                 <div class="clear"></div><!--clear-->
             </div><!--mneu-topo-->
             <div class="chamada-header">
@@ -40,6 +49,13 @@
         </div><!--container-->
     </header>
 
+    <section class="descricao-danki">
+        <div class="container">
+            <p>Com anos de experiência em desinvolvimento web e automação de marketing, a <b>DankiCode</b> traz soluções que ajudam o seu time a vender mais tento em segmentos B2C quanto B2B.</p>
+        </div><!--container-->
+    </section><!--descricao-danki-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/file.js"></script>
 </body>
 </html>
