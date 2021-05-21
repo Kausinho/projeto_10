@@ -81,6 +81,61 @@
             <div class="title-servicos">
                 <h3>Como podemos ajudar sua empresa<br /><i class="fa fa-angle-down"></i></h3>
             </div><!--title-servicos-->
+            <div class="flex-servicos">
+                <div class="box-servico">
+                    <img src="images/img3.jpg" />
+                    <div class="box-servico-wraper">
+                        <h2>E-mail Marketing</h2>
+                        <p>Irure aliqua consequat elit non amet sunt ea amet mollit minim ullamco exercitation eu.</p>
+                        <a href="#">Orçamento</a>
+                    </div><!--box-servico-wraper-->
+                </div><!--box-servico-->
+
+                <div class="box-servico">
+                    <img src="images/img1.jpg" />
+                    <div class="box-servico-wraper">
+                        <h2>Páginas de venda</h2>
+                        <p>Irure aliqua consequat elit non amet sunt ea amet mollit minim ullamco exercitation eu.</p>
+                        <a href="#">Orçamento</a>
+                    </div><!--box-servico-wraper-->
+                </div><!--box-servico-->
+
+                <div class="box-servico">
+                    <img src="images/img2.jpg" />
+                    <div class="box-servico-wraper">
+                        <h2>Páginas de captura e inscrição</h2>
+                        <p>Irure aliqua consequat elit non amet sunt ea amet mollit minim ullamco exercitation eu.</p>
+                        <a href="#">Orçamento</a>
+                    </div><!--box-servico-wraper-->
+                </div><!--box-servico-->
+
+                <div class="box-servico">
+                    <img src="images/img4.jpg" />
+                    <div class="box-servico-wraper">
+                        <h2>SEO e Marketing de conteúdo</h2>
+                        <p>Irure aliqua consequat elit non amet sunt ea amet mollit minim ullamco exercitation eu.</p>
+                        <a href="#">Orçamento</a>
+                    </div><!--box-servico-wraper-->
+                </div><!--box-servico-->
+
+                <div class="box-servico">
+                    <img src="images/img5.jpg" />
+                    <div class="box-servico-wraper">
+                        <h2>AdWords e Facebook Ads</h2>
+                        <p>Irure aliqua consequat elit non amet sunt ea amet mollit minim ullamco exercitation eu.</p>
+                        <a href="#">Orçamento</a>
+                    </div><!--box-servico-wraper-->
+                </div><!--box-servico-->
+
+                <div class="box-servico">
+                    <img src="images/img6.jpg" />
+                    <div class="box-servico-wraper">
+                        <h2>Consultoria em Marketing</h2>
+                        <p>Irure aliqua consequat elit non amet sunt ea amet mollit minim ullamco exercitation eu.</p>
+                        <a href="#">Orçamento</a>
+                    </div><!--box-servico-wraper-->
+                </div><!--box-servico-->
+            </div|><!--flex-servicos-->
         </div><!--container-->
     </section><!--servicos-->
 
