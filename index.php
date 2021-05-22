@@ -82,62 +82,132 @@
                 <h3>Como podemos ajudar sua empresa<br /><i class="fa fa-angle-down"></i></h3>
             </div><!--title-servicos-->
             <div class="flex-servicos">
-                <div class="box-servico">
-                    <img src="images/img3.jpg" />
-                    <div class="box-servico-wraper">
-                        <h2>E-mail Marketing</h2>
-                        <p>Irure aliqua consequat elit non amet sunt ea amet mollit minim ullamco exercitation eu.</p>
-                        <a href="#">Orçamento</a>
-                    </div><!--box-servico-wraper-->
-                </div><!--box-servico-->
+                <div class="space-servico">
+                    <div class="box-servico">
+                        <img src="images/img3.jpg" />
+                        <div class="box-servico-wraper">
+                            <h2>E-mail Marketing</h2>
+                            <p>Aprenda como utilizar e-mail marketing na sua empresa para alavancar suas vendas de uma forma automatizada.</p>
+                            <a href="#">Orçamento</a>
+                        </div><!--box-servico-wraper-->
+                    </div><!--box-servico-->
+                </div><!--space-servico-->
 
-                <div class="box-servico">
-                    <img src="images/img1.jpg" />
-                    <div class="box-servico-wraper">
-                        <h2>Páginas de venda</h2>
-                        <p>Irure aliqua consequat elit non amet sunt ea amet mollit minim ullamco exercitation eu.</p>
-                        <a href="#">Orçamento</a>
-                    </div><!--box-servico-wraper-->
-                </div><!--box-servico-->
+                <div class="space-servico">
+                    <div class="box-servico">
+                        <img src="images/img1.jpg" />
+                        <div class="box-servico-wraper">
+                            <h2>Páginas de venda</h2>
+                            <p>Criamos páginas de venda 100% otimizadas e voltadas para conversões. Solicite um orçamento e tenha hoje mesmo a sua página para vender na internet.</p>
+                            <a href="#">Orçamento</a>
+                        </div><!--box-servico-wraper-->
+                    </div><!--box-servico-->
+                </div><!--space-servico-->
 
-                <div class="box-servico">
-                    <img src="images/img2.jpg" />
-                    <div class="box-servico-wraper">
-                        <h2>Páginas de captura e inscrição</h2>
-                        <p>Irure aliqua consequat elit non amet sunt ea amet mollit minim ullamco exercitation eu.</p>
-                        <a href="#">Orçamento</a>
-                    </div><!--box-servico-wraper-->
-                </div><!--box-servico-->
+                <div class="space-servico">
+                    <div class="box-servico">
+                        <img src="images/img2.jpg" />
+                        <div class="box-servico-wraper">
+                            <h2>Páginas de captura e inscrição</h2>
+                            <p>Capture o e-mail dos visitantes do seu site e crie uma base de leads para sua empresa.</p>
+                            <a href="#">Orçamento</a>
+                        </div><!--box-servico-wraper-->
+                    </div><!--box-servico-->
+                </div><!--space-servico-->
 
-                <div class="box-servico">
-                    <img src="images/img4.jpg" />
-                    <div class="box-servico-wraper">
-                        <h2>SEO e Marketing de conteúdo</h2>
-                        <p>Irure aliqua consequat elit non amet sunt ea amet mollit minim ullamco exercitation eu.</p>
-                        <a href="#">Orçamento</a>
-                    </div><!--box-servico-wraper-->
-                </div><!--box-servico-->
+                <div class="space-servico">
+                    <div class="box-servico">
+                        <img src="images/img4.jpg" />
+                        <div class="box-servico-wraper">
+                            <h2>SEO e Marketing de conteúdo</h2>
+                            <p>Aplicamos SEO no seu site para o mesmo ficar bem posicionado nos mecanismos de buscas e ser achado facilmente.</p>
+                            <a href="#">Orçamento</a>
+                        </div><!--box-servico-wraper-->
+                    </div><!--box-servico-->
+                </div><!--space-servico-->
 
-                <div class="box-servico">
-                    <img src="images/img5.jpg" />
-                    <div class="box-servico-wraper">
-                        <h2>AdWords e Facebook Ads</h2>
-                        <p>Irure aliqua consequat elit non amet sunt ea amet mollit minim ullamco exercitation eu.</p>
-                        <a href="#">Orçamento</a>
-                    </div><!--box-servico-wraper-->
-                </div><!--box-servico-->
+                <div class="space-servico">
+                    <div class="box-servico">
+                        <img src="images/img5.jpg" />
+                        <div class="box-servico-wraper">
+                            <h2>AdWords e Facebook Ads</h2>
+                            <p>Criamos campanhas altamente otimizadas para o seu negócio gerar mais vendas pelo menor custo.</p>
+                            <a href="#">Orçamento</a>
+                        </div><!--box-servico-wraper-->
+                    </div><!--box-servico-->
+                </div><!--space-servico-->
 
-                <div class="box-servico">
-                    <img src="images/img6.jpg" />
-                    <div class="box-servico-wraper">
-                        <h2>Consultoria em Marketing</h2>
-                        <p>Irure aliqua consequat elit non amet sunt ea amet mollit minim ullamco exercitation eu.</p>
-                        <a href="#">Orçamento</a>
-                    </div><!--box-servico-wraper-->
-                </div><!--box-servico-->
+                <div class="space-servico">
+                    <div class="box-servico">
+                        <img src="images/img6.jpg" />
+                        <div class="box-servico-wraper">
+                            <h2>Consultoria em Marketing</h2>
+                            <p>Precisa de ajuda e planejamento no seu negócio? Fale com a Danki Code, hoje mesmo, para criarmos um plano de marketing a longo prazo e 100% voltado para vendas.</p>
+                            <a href="#">Orçamento</a>
+                        </div><!--box-servico-wraper-->
+                    </div><!--box-servico-->
+                </div><!--space-servico-->
             </div|><!--flex-servicos-->
-        </div><!--container-->
+        </;><!--container-->
     </section><!--servicos-->
+
+    <section class="portifolio">
+        <div class="container">
+            <h2>Algumas <b>empresas</b> que tivemos a oportunidade de atuar.</h2>
+            <div class="empresas">
+                <div class="empresa-single">
+                    <img src="images/bianchini.png" />
+                </div><!--empresa-single-->
+
+                <div class="empresa-single">
+                    <img src="images/rancho.png" />
+                </div><!--empresa-single-->
+
+                <div class="empresa-single">
+                    <img src="images/hoepcke.png" />
+                </div><!--empresa-single-->
+
+                <div class="empresa-single">
+                    <img src="images/monguilhott.png" />
+                </div><!--empresa-single-->
+            </div><!--empresas-->
+        </div><!--container-->
+    </seciton><!--portifolio-->
+
+    <section class="formulario">
+        <div class="container">
+            <h2>Um orçamento ou alguma dúvida?</h2>
+            <form>
+                <input type="text" name="nome" placeholder="Nome..." rquired="" />
+                <input type="email" name="email" placeholder="E-mail..." rquired="" />
+                <input type="text" name="telefone" placeholder="Telefone..." rquired="" />
+                <textarea name="mensagem" placeholder="Sua mensagem..."></textarea>
+                <input type="submit" name="acao" value="Enviar!" />
+            </form>
+        </div><!--container-->
+    </section><!--formulario-->
+
+    <footer>
+        <div class="container">
+            <div class="box-footer">
+                <h2>Endereço</h2>
+                <p>Rua Rafale Bandeira, 328 - Centro, Florianópolis/SC, 88015-450, Brasil</p>
+            </div><!--box-footer-->
+
+            <div class="box-footer">
+                <h2>Telefone</h2>
+                <p>(48)99901-3620</p>
+            </div><!--box-footer-->
+
+            <div class="box-footer">
+                <h2>Receba nossas News</h2>
+                <form>
+                    <input placeholder="E-mail..." type="text" /><button type="submit"><i class="far fa-paper-plane"></i></button>
+                </form>
+            </div><!--box-footer-->
+            <div class="clear"><!--clear-->
+        </div><!--container-->
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/file.js"></script>
