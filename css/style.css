@@ -13,6 +13,14 @@
     margin: 0 auto;
 }
 
+input[type=submit],
+input[type=text],
+input[type=email],
+textarea{
+	appearance:none;
+	-webkit-appearance:none;
+}
+
 .clear{
     clear: both;
 }
@@ -268,13 +276,18 @@ section.servicos > .container{
     flex-wrap: wrap;
 }
 
+.space-servico{
+    display:  flex;
+    padding: 30px;
+    width: 33.3%;
+}
+
 .box-servico{
-    border: 10px solid rgb(230,230,230);
     border-radius: 3px;
     background-color: #ffffff;
     box-shadow: 0 8px 20px 0 rgba(224,224,224, 0.5);
     background: white;
-    width: 33.3%;
+    height: 100%;
 }
 
 .box-servico img{
@@ -306,6 +319,172 @@ section.servicos > .container{
     text-decoration: none;
     padding: 6px 12px;
     border-radius: 20px;
+}
+
+/******/
+
+/*Sessão Portifólio*/
+
+section.portifolio{
+    padding: 20px 0;
+    background: white;
+}
+
+section.portifolio h2{
+    font-weight: normal;
+    text-align: center;
+    color: #31475e;
+}
+
+section.portifolio > .container{
+    max-width: 960px;
+    padding: 15px 0;
+    background-color: #f7f7f7;
+}
+
+.empresas{
+    padding: 0 10px;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.empresa-single{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-style: solid;
+    border-color: #ececec;
+    border-width: 1px 0 1px 1px;
+    width: 25%;
+    padding: 10px 0;
+}
+
+.empresas .empresa-single:last-child{
+    border: 1px solid #ececec;
+}
+
+/******/
+
+/*Sessão Formulário*/
+
+section.formulario{
+    padding: 30px 0;
+}
+
+section.formulario h2{
+    text-align: center;
+    font-weight: normal;
+    color: #31475e;
+}
+
+section.formulario form{
+    margin-top: 10px;
+}
+
+section.formulario > .container{
+    max-width: 960px;
+}
+
+section.formulario input[type=text],
+section.formulario input[type=email]{
+    width: 100%;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px solid #ebebeb;
+    margin-top: 8px;
+    padding-left: 10px;
+}
+
+section.formulario input:focus{
+    outline: 0;
+}
+
+section.formulario textarea{
+    width: 100%;
+    height: 120px;
+    resize: vertical;
+    border-radius: 20px;
+    border: 1px solid #ebebeb;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+section.formulario textarea:focus{
+    outline: 0;
+}
+
+section.formulario input[type=submit]{
+    width: 130px;
+    height: 38px;
+    border-radius: 100px;
+    background-color: #ff5f27;
+    box-shadow: 0 8px 20px 0 rgba(224,224,224,0.5);
+    border: 0;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/******/
+
+/*Sessão Footer*/
+
+footer{
+    margin: 50px 0;
+}
+
+.box-footer{ 
+    float: left;
+    width: 33.3%;
+    padding: 0 15px;
+}
+
+.box-footer h2{
+    color: #31475e;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.box-footer p{
+    margin-top: 10px;
+    color: #31475e;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.box-footer form{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box-footer button{
+    width: calc(20% - 10px);
+    margin-left: 10px;
+    max-width: 63px;
+    height: 43px;
+    border: 1px solid #31475e;
+    border-radius: 50%;
+    background: white;
+}
+
+.box-footer input[type=text]{
+    width: 80%;
+    padding-left: 10px;
+    max-width: 208px;
+    height: 43px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    border: solid 1px #bfbfbf;
+    padding-left: 10px;
+}
+
+.box-footer input:focus{
+    outline: 0;
+}
+
+.box-footer button i{
+    color: #31475e;
 }
 
 /******/
@@ -344,6 +523,19 @@ section.servicos > .container{
 }
 
 @media screen and (max-width: 768px){
+    .box-footer{
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .empresa-single{
+        width: 100%;
+        margin: 15px auto;
+        max-width: 640px;
+        border: 1px solid #ececec;
+    }
+
     .texto-descricao{
         display: block;
         float: none;
@@ -359,7 +551,7 @@ section.servicos > .container{
         max-width: 500px;
     }
 
-    .box-servico{
+    .space-servico{
         margin: 0 auto;
         max-width: 400px;
         width: 100%;
