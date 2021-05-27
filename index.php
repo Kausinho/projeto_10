@@ -205,7 +205,7 @@
                     <input placeholder="E-mail..." type="text" /><button type="submit"><i class="far fa-paper-plane"></i></button>
                 </form>
             </div><!--box-footer-->
-            <div class="clear"><!--clear-->
+            
         </div><!--container-->
     </footer>
 
