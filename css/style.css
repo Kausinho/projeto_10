@@ -430,14 +430,16 @@ section.formulario input[type=submit]{
 
 /*Sessão Footer*/
 
-footer{
-    margin: 50px 0;
+
+footer .container{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .box-footer{ 
-    float: left;
     width: 33.3%;
-    padding: 0 15px;
+    text-align: center;
 }
 
 .box-footer h2{
